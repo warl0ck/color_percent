@@ -10,12 +10,12 @@ A light weight image color composition analyzer. Given an image file, it helps c
     
 == In Action
 
-irb
-require 'rubygems'
-require 'color_percent'
-img = ColorPercentage::ImageColor.new('image.jpg')
-color_compostion = img.find_color
-#	=> {"Color1"=>54.98546, "Color2"=>40.46, ...}
+    irb
+    require 'rubygems'
+    require 'color_percent'
+    img = ColorPercentage::ImageColor.new('image.jpg')
+    color_compostion = img.find_color
+    #	=> {"Color1"=>54.98546, "Color2"=>40.46, ...}
 	
 	
 == Testing
