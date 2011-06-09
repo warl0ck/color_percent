@@ -1,6 +1,27 @@
 = color_percent
 
-Description goes here.
+A light weight image color composition analyzer. Given an image file, it helps compute the percentage of basic colors in it. Uses ImageMagick to analyze image pixels to determine basic color composition in them.
+
+
+== Installation
+   
+    [sudo] gem install color_percent
+    
+    
+== In Action
+
+irb
+require 'rubygems'
+require 'color_percent'
+img = ColorPercentage::ImageColor.new('image.jpg')
+color_compostion = img.find_color
+#	=> {"Color1"=>54.98546, "Color2"=>40.46, ...}
+	
+	
+== Testing
+
+Didnt have much time to do that. Will do it if someone really requires it. :P
+
 
 == Contributing to color_percent
  
@@ -14,6 +35,5 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2011 warlock. See LICENSE.txt for
-further details.
+Copyright (c) 2011 warl0ck. See LICENSE.txt for further details.
 

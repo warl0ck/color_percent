@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "color_percent"
   gem.homepage = "http://github.com/warl0ck/color_percent"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = "Given an image file, it helps compute the percentage of basic colors in it."
+  gem.description = "Uses ImageMagick to analyze images to further determine ratio of basic color composition in them."
   gem.email = "vinay.beckham@gmail.com"
   gem.authors = ["warlock"]
   # dependencies defined in Gemfile
